@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Balsamiq Sans";
+    src: url("font/BalsamiqSans-Regular.ttf");
+}
+body{
+		font-family: 'Balsamiq Sans' , cursive ;
+		font-size: 1.2em;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#chicken{
+		background-color: orange;
+}
+
+#beef{
+	    background-color: red;
+}
+
+#sushi{
+		background-color: yellow;
+}
+h3{
+	width: 25%;
+	min-width: 100px;
+	max-width: 120px;
+	position: absolute;
+	top: -23px;
+	right: 0px;
+	border:2px solid black;
+	text-align: center;
+	flex-direction: column;
+	
+}
+p{
+	flex-direction: column;
+	float: both;
+	padding: 10px;
+	margin-top: 70px;
+}
+
+section{
+			position: relative;
+			border: 2px solid black;
+			width: 90%;
+			background-color: gray;
+			flex-direction: column;
+			margin: 5%;
+		}
+
+		/****large screen****/
+		@media (min-width: 992px){
+		
+			.col-lg-4{
+				position: relative;
+				width: 33.33%;
+				float: left;
+				
+			}
+		}
+		/****medium screen****/
+		@media (min-width: 768px) and (max-width: 991px){
+			.col-mg-6{
+				
+				width: 50%;
+				float: left;
+			}
+			.col-mg-12{
+				
+				width: 100%;
+				float: left;
+	
+			}
+			.alone{
+				width: 95%;
+				margin: 2.5%;
+			}
+
+		}		
