@@ -31,10 +31,8 @@ body{
 	background-color: black;
 	height: 3px;
 }
-#nav-list li{
-	color: black!important;
-	text-align: center;
-	height: 50px;
+#nav-list{
+	background-color: lightslategray;
 }
 #nav-list a{
 	color: black;
