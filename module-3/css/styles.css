@@ -1,0 +1,62 @@
+
+body{
+	font-size: 16px;
+  	color: black;
+  	font-family: 'Balsamiq Sans', cursive;
+	font-size: 1.3em;
+}
+.navbar-header{
+	height: 100px;
+}
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 {
+  color: black;
+  font-weight: bold;
+}
+#collapsable-nav{
+	background-color:gray;
+}
+.navbar-header button{
+	border: 2px solid black;
+    width: 56px;
+    height: 60px;
+    margin-top: 20px;
+}
+.navbar-header .navbar-toggle .icon-bar{
+	width: 30px;
+	background-color: black;
+	height: 3px;
+}
+#nav-list li{
+	color: black!important;
+	text-align: center;
+	height: 50px;
+}
+#nav-list a{
+	color: black;
+	font-weight: 300;
+
+}
+#main-content h2{
+	font-size: 30px;
+	border-radius: 10px;
+	margin: 25px;
+	font-weight: bold;
+}
+#main-content h3{
+	text-align: center;
+	font-size: 1.8em;
+}
+.box-content{
+	background-color: #A9A9A9;
+	padding: 10px;
+	margin-bottom: 25px;
+	line-height: 2;
+	font-size: 1.3em;
+	overflow: hidden;
+
+}
